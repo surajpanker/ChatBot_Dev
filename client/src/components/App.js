@@ -5,7 +5,7 @@ import ChatBot from './chatbot/ChatBot';
 import About from './pages/About';
 import Shop from './shop/Shop';
 import Header from './Header';
-
+import b1 from './chatbot/images/b.jpeg';
 const App = () => {
 
     return (
@@ -13,16 +13,20 @@ const App = () => {
         <div>
 
         <BrowserRouter >
-             
+     
+        <Header />     
 <Route exact path="/about" component={About} />
 
 
 <Route exact path="/shop" component={Shop} />
-         <Header  />
 
-        <ChatBot/>
+
           </BrowserRouter>
-        </div>
+          
+ <BrowserRouter >  
+<ChatBot/>
+          </BrowserRouter>
+       </div>
         
     )
 }
