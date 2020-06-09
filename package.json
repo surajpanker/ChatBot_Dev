@@ -8,9 +8,9 @@
   },
   "scripts": {
     "start": "node index.js",
+    "backend": "nodemon index.js",
     "frontend": "npm run front --prefix client",
-    "backend": "npx nodemon index.js",
-    "dev": "concurrently \"npm run backend\"  \"npm run start --prefix client\" ",
+   "dev": "concurrently \"npm run backend\"  \"npm run start --prefix client\" ",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "suraj",
