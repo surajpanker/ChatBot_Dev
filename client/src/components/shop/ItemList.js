@@ -2,9 +2,9 @@ import React from 'react';
 const ItemList=() =>(
         
         <div>
-        <h1>
-            hello
-        </h1>
+        <h6>
+     shop for beauty journel
+        </h6>
         
         </div>
         

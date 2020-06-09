@@ -24,7 +24,7 @@ class Chatbot extends Component {
 
         this.state = {
             messages: [],
-            showBot:true,
+            showBot:false,
             shopWelcomeSent:false
         };
         //for intialize cookie if it is not availble
